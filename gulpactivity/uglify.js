@@ -1,1 +1,1 @@
-var count=0;document.getElementById("tomato").addEventListener("click",function(){count++,document.getElementById("counter").innerText=count,logger()});
+$(document).ready(function(){$("div.flip-wrapper").click(function(){$(this).toggleClass("flip"),console.log("clicked")})});
