@@ -7,7 +7,9 @@ $(document).ready(function () {
 
   function showEgg(){
     var egg = document.getElementsByClassName('egg')[0];
-    egg.className = '';
+    if(egg){
+      egg.className = '';
+    }
   }
   var code = "";
   window.addEventListener("keydown", trackKeys);
